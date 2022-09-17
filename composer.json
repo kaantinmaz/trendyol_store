@@ -1,0 +1,29 @@
+{
+    "name": "efast/trendyol_store_api",
+    "description": "Trendyol hızlı market entegrasyonu",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Efast\\TrendyolStoreApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kaantinmaz",
+            "email": "79404689+kaantinmaz@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : "^8.0.13",
+        "illuminate/support" : "^9.0"
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "Efast\\TrendyolStoreApi\\Providers\\TrendyolStoreServiceProvider"
+            ]
+        }
+    }
+}

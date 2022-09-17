@@ -1,0 +1,8 @@
+<?php
+
+return [
+    'SELLER_ID' => env('TRENDYOL_STORE_SELLER_ID'),
+    'STORE_ID' => env('TRENDYOL_STORE_STORE_ID'),
+    'API_KEY' => env('TRENDYOL_STORE_API_KEY'),
+    'SECRET_KEY' => env('TRENDYOL_STORE_SECRET_KEY'),
+];
