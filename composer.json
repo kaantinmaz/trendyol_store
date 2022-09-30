@@ -23,7 +23,10 @@
         "laravel" : {
             "providers" : [
                 "Efast\\TrendyolStoreApi\\Providers\\TrendyolStoreServiceProvider"
-            ]
+            ],
+            "aliases" : {
+                "TrendyolStore" : "Efast\\TrendyolStoreApi\\Facades\\TrendyolStoreFacade"
+            }
         }
     }
 }
